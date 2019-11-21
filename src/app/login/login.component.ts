@@ -22,7 +22,9 @@ export class LoginComponent implements OnInit {
   }
 
   onSubmit() {
-    console.log("onSubmit");    
+    console.log("onSubmit");
+    
+    this.router.navigate(['addquestion']);
   }
 
 }
